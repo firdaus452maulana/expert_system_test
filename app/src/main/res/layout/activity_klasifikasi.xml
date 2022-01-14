@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <RadioGroup
+            android:id="@+id/rg_G007"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah Lensa Mata anda keruh ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G007_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G007_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G007_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G007_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G007_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G008"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah Penglihatan anda buram ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G008_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G008_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G008_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G008_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G008_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G009"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah Penglihatan anda pada saat sore lebih nyaman ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G009_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G009_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G009_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G009_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G009_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G010"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda mengalami peningkatan pada rabun jauh ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G010_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G010_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G010_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G010_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G010_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G011"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda pernah mengalami cidera pada bola mata ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G011_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G011_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G011_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G011_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G011_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G012"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda memiliki riwayat penyakit Diabetes ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G012_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G012_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G012_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G012_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G012_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G013"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda memiliki riwayat penyakit Hipertensi ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G013_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G013_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G013_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G013_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G013_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G014"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda mengalami infeksi pada saluran pernapasan ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G014_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G014_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G014_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G014_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G014_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G015"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda menggunakan steroid dalam jangka panjang ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G015_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G015_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G015_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G015_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G015_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G016"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda meminum ramuan yang tidak terdaftar ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G016_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G016_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G016_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G016_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G016_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G017"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda Berusia lebih dari 50 tahun ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G017_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G017_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G017_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G017_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G017_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G018"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda Berusia antara satu sampai 10 tahun ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G018_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G018_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G018_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G018_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G018_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_G019"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda memiliki saudara penderita katarak usia dini ?"/>
+
+            <RadioButton
+                android:id="@+id/rb_G019_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_G019_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_G019_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_G019_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_G019_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simpan"/>
+
+    </LinearLayout>
+
+</ScrollView>

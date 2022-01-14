@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Expert System Test</string>
+    <string name="pertanyaan_penurunan_penglihatan">Apakah anda mengalami penurunan penglihatan terutama di siang hari ?</string>
+    <string name="tidak">Tidak</string>
+    <string name="mungkin">Mungkin</string>
+    <string name="kemungkinan_besar">Kemungkinan Besar</string>
+    <string name="hampir_pasti">Hampir Pasti</string>
+    <string name="pasti">Pasti</string>
+    <string name="pertanyaan_mata_silau">Apakah anda merasa silau ketika mata anda terkena cahaya ?</string>
+    <string name="pertanyaan_ganti_kacamata">Apakah anda sering mengganti kacamata yang anda pakai ?</string>
+    <string name="simpan">Simpan</string>
+    <string name="nilai_cf_pakar">Nilai CF Pakar :</string>
+    <string name="nilai_cf_user">Nilai CF User :</string>
+    <string name="hasil">Hasil :</string>
+    <string name="pertanyaan_malam_hari">Apakah anda kesulitan melihat saat Malam hari ?</string>
+    <string name="pertanyaan_nyeri_mata">Apakah anda merasakan nyeri mata ?</string>
+    <string name="pertanyaan_lensa_bengkak">Apakah Lensa Mata anda membengkak ?</string>
 </resources>

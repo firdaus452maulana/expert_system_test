@@ -1,18 +1,251 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        android:padding="24dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <RadioGroup
+            android:id="@+id/rg_gej_penurunan_penglihatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan_penurunan_penglihatan"/>
+
+            <RadioButton
+                android:id="@+id/rb_gej_penurunan_penglihatan_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_gej_penurunan_penglihatan_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_gej_penurunan_penglihatan_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_gej_penurunan_penglihatan_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_gej_penurunan_penglihatan_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_gej_mata_silau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan_mata_silau"/>
+
+            <RadioButton
+                android:id="@+id/rb_gej_mata_silau_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_gej_mata_silau_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_gej_mata_silau_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_gej_mata_silau_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_gej_mata_silau_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_gej_ganti_kacamata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan_ganti_kacamata"/>
+
+            <RadioButton
+                android:id="@+id/rb_gej_ganti_kacamata_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_gej_ganti_kacamata_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_gej_ganti_kacamata_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_gej_ganti_kacamata_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_gej_ganti_kacamata_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_gej_lensamata_bengkak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan_lensa_bengkak"/>
+
+            <RadioButton
+                android:id="@+id/rb_gej_lensamata_bengkak_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_gej_lensamata_bengkak_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_gej_lensamata_bengkak_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_gej_lensamata_bengkak_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_gej_lensamata_bengkak_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_gej_malam_hari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan_malam_hari"/>
+
+            <RadioButton
+                android:id="@+id/rb_gej_malam_hari_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_gej_malam_hari_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_gej_malam_hari_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_gej_malam_hari_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_gej_malam_hari_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_gej_nyeri_mata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan_nyeri_mata"/>
+
+            <RadioButton
+                android:id="@+id/rb_gej_nyeri_mata_tidak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tidak"/>
+            <RadioButton
+                android:id="@+id/rb_gej_nyeri_mata_mungkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mungkin"/>
+            <RadioButton
+                android:id="@+id/rb_gej_nyeri_mata_kemungkinan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kemungkinan_besar"/>
+            <RadioButton
+                android:id="@+id/rb_gej_nyeri_mata_hampir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hampir_pasti"/>
+            <RadioButton
+                android:id="@+id/rb_gej_nyeri_mata_pasti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasti"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simpan"/>
+
+    </LinearLayout>
+
+</ScrollView>

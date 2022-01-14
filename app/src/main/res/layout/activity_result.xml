@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Konversi Gejala Penurunan Penglihatan Siang Hari"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_gejala1_pakar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_pakar" />
+
+        <TextView
+            android:id="@+id/tv_gejala1_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_user" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Konversi Gejala Mata silau akan cahaya"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_gejala2_pakar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_pakar" />
+
+        <TextView
+            android:id="@+id/tv_gejala2_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_user" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Konversi Sering ganti kacamata"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_gejala3_pakar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_pakar" />
+
+        <TextView
+            android:id="@+id/tv_gejala3_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_user" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Konversi Gejala Lensa mata membengkak"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_gejala4_pakar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_pakar" />
+
+        <TextView
+            android:id="@+id/tv_gejala4_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_user" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Konversi Gejala Malam Hari"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_gejala5_pakar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_pakar" />
+
+        <TextView
+            android:id="@+id/tv_gejala5_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_user" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Konversi Gejala Nyeri Mata"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_gejala6_pakar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_pakar" />
+
+        <TextView
+            android:id="@+id/tv_gejala6_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nilai_cf_user" />
+
+
+        <TextView
+            android:id="@+id/tv_klasifikasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/hasil"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

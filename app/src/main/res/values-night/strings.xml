@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pertanyaan_malam_hari">Apakah anda kesulitan melihat saat Malam hari ?</string>
+    <string name="pertanyaan_nyeri_mata">Apakah anda merasakan nyeri mata ?</string>
+</resources>
